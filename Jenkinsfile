@@ -4,7 +4,7 @@ pipeline {
         stage('Git') {
             steps {
                 echo 'Downoading..'
-                git 'https://github.com/amangoswami177/end_to_end_pipeline.git'
+                git 'https://github.com/amangoswami177/end_to_end_devops_pipeline.git'
                 echo "Code Downloaded Succesfully!"
             }
         }
