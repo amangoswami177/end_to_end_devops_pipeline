@@ -20,3 +20,15 @@ variable "amiID"{
 variable "sg_name"{
     default = "WebserverSg"
 }
+
+variable "aws_access_key"{
+    default = "${{ secrets.AWS_ACCESS_KEY }}"
+}
+
+variable "aws_region"{
+    default = "ap-south-1"
+}
+
+variable "aws_secret_key"{
+    default = ""${{ secrets.AWS_SECRET_KEY }}""
+}
