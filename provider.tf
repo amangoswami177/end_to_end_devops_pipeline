@@ -10,6 +10,6 @@ terraform {
 provider "aws" {
   region = "ap-south-1"
   profile = "gfgdev1"
-  access_key = ${{ secrets.awsaccesskey }}
-  secret_key = ${{ secrets.awssecretkey }}
+  access_key = "AKIAYS2NSQIYMEW3Z6Q6"  
+  secret_key = "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"
 }
