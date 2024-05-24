@@ -22,7 +22,7 @@ variable "sg_name"{
 }
 
 variable "aws_access_key"{
-    default = "secrets.AWS_ACCESS_KEY"
+    default = "AKIAYS2NSQIYLTK4V35U"
 }
 
 variable "aws_region"{
@@ -30,5 +30,5 @@ variable "aws_region"{
 }
 
 variable "aws_secret_key"{
-    default = "secrets.AWS_SECRET_KEY"
+    default = "o280RBqgWUGx/WrOPj7qUfnevxz5+xz9hK80AaoC"
 }
