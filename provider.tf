@@ -9,7 +9,6 @@ terraform {
 
 provider "aws" {
   region = "ap-south-1"
-  access_key = ${{ secrets.awsaccesskey }}
-  secret_key = ${{ secrets.awssecretkey }}
-
+  access_key = ${{ "secrets.awsaccesskey" }}
+  secret_key = ${{ "secrets.awssecretkey" }}
 }
